@@ -1,0 +1,1 @@
+rootProject.name = '{{cookiecutter.application_name}}'
