@@ -2,5 +2,9 @@
   "application_name": "appname",
   "main_class_name": "MAIN",
   "test_class_name": "TEST",
-  "artifact_name": "name"
+  "artifact_name": "name",
+  "entityType": "Service",
+  "entityTitle": "Sample Title",
+  "entityDescription": "Sample Description",
+  "entityRelatedSystem": "Sample Related System"
 }

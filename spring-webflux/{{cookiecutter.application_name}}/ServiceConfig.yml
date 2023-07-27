@@ -1,0 +1,11 @@
+type:
+  {{cookiecutter.entityType}}
+
+title:
+  {{cookiecutter.entityTitle}}
+
+description:
+  {{cookiecutter.entityDescription}}
+
+relatedSystem:
+  {{cookiecutter.entityRelatedSystem}}
