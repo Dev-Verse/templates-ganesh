@@ -9,3 +9,7 @@ description:
 
 relatedSystem:
   {{cookiecutter.entityRelatedSystem}}
+
+jenkins:
+  job:
+    <JENKINS_SERVICE_NAME>
