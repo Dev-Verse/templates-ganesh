@@ -35,10 +35,10 @@ def generate_project():
     response = requests.get(api_url, params=project_data)
 
     if response.status_code == 200:
-        with open(os.path("project.zip"), "wb") as f:
+        with open(os.path.join("project.zip"), "wb") as f:
             f.write(response.content)
 
-        with zipfile.ZipFile(os.path("project.zip"), "r") as zip_ref:
+        with zipfile.ZipFile(os.path.join("project.zip"), "r") as zip_ref:
             zip_ref.extractall()
 
         os.remove(os.path.join("project.zip"))
