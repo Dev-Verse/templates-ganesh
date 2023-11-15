@@ -1,6 +1,7 @@
 import requests
 import os
 import zipfile
+import sys
 
 
 def generate_project():
@@ -43,4 +44,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Error: {e}")
         # Optionally, exit the script with a non-zero status code
-        exit(1)
+        sys.exit(1)
