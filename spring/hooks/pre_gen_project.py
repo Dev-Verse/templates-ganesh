@@ -5,20 +5,6 @@ import zipfile
 
 def generate_project():
     api_url = "https://start.spring.io/starter.zip"
-    project_data1 = {
-        "type": "gradle-project",
-        "language": "java",
-        "bootVersion": "3.1.5",
-        "groupId": "com.techverito",
-        "artifactId": "ServiceCatalog",
-        "name": "ServiceCatalog",
-        "description": "Demo project for Spring Boot",
-        "packageName": "com.techverito.ServiceCatalog",
-        "packaging": "jar",
-        "javaVersion": "17",
-        "dependencies": "lombok,web,postgresql,testcontainers,data-jpa,devtools",
-    }
-
     project_data = {
         "type": "{{cookiecutter.buildTool}}",
         "language": "{{cookiecutter.language}}",
@@ -45,8 +31,16 @@ def generate_project():
 
         print("Project generated successfully.")
     else:
-        raise Exception("Failed to generate the project.")
+        error_message = (
+            f"Failed to generate the project. Status Code: {response.status_code}"
+        )
+        raise Exception(error_message)
 
 
 if __name__ == "__main__":
-    generate_project()
+    try:
+        generate_project()
+    except Exception as e:
+        print(f"Error: {e}")
+        # Optionally, exit the script with a non-zero status code
+        exit(1)
