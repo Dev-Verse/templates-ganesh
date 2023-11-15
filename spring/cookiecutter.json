@@ -2,7 +2,7 @@
     "buildTool": "gradle-project",
     "language": "java",
     "bootVersion": "3.1.5",
-    "artifactName": "myService",
+    "artifact_name": "myService",
     "groupId": "com.techverito",
     "description": "Demo project for Spring Boot",
     "packageName": "com.techverito.myService",
