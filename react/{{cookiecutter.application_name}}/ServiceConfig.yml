@@ -1,0 +1,15 @@
+type:
+  {{cookiecutter.entityType}}
+
+title:
+  {{cookiecutter.entityTitle}}
+
+description:
+  {{cookiecutter.entityDescription}}
+
+relatedSystem:
+  {{cookiecutter.entityRelatedSystem}}
+
+jenkins:
+  job:
+    <JENKINS_SERVICE_NAME>
