@@ -25,7 +25,7 @@ def generate_project():
         "bootVersion": "{{cookiecutter.bootVersion}}",
         "groupId": "{{cookiecutter.groupId}}",
         "artifactId": "{{cookiecutter.artifact_name}}",
-        "name": "{{cookiecutter.artifactName}}",
+        "name": "{{cookiecutter.artifact_name}}",
         "description": "{{cookiecutter.description}}",
         "packageName": "{{cookiecutter.packageName}}",
         "packaging": "{{cookiecutter.packaging}}",
