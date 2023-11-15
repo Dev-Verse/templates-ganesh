@@ -20,12 +20,12 @@ def generate_project():
     }
 
     project_data = {
-        "type": "{{cookiecutter.type}}",
+        "type": "{{cookiecutter.buildTool}}",
         "language": "{{cookiecutter.language}}",
         "bootVersion": "{{cookiecutter.bootVersion}}",
         "groupId": "{{cookiecutter.groupId}}",
-        "artifactId": "{{cookiecutter.artifactId}}",
-        "name": "{{cookiecutter.artifactId}}",
+        "artifactId": "{{cookiecutter.artifactName}}",
+        "name": "{{cookiecutter.artifactName}}",
         "description": "{{cookiecutter.description}}",
         "packageName": "{{cookiecutter.packageName}}",
         "packaging": "{{cookiecutter.packaging}}",

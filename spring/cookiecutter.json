@@ -1,8 +1,8 @@
 {
-    "type": "gradle-project",
+    "buildTool": "gradle-project",
     "language": "java",
     "bootVersion": "3.1.5",
-    "groupId": "com.techverito",
+    "artifactName": "com.techverito",
     "artifactId": "ServiceCatalog",
     "description": "Demo project for Spring Boot",
     "packageName": "com.techverito.ServiceCatalog",
