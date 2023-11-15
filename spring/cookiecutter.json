@@ -8,5 +8,9 @@
     "packageName": "com.techverito.ServiceCatalog",
     "packaging": "jar",
     "javaVersion": "17",
-    "dependencies": "lombok,web,postgresql,testcontainers,data-jpa,devtools"
+    "dependencies": "lombok,web,postgresql,testcontainers,data-jpa,devtools",
+    "entityType": "service",
+    "entityTitle": "example",
+    "entityDescription": "description of the entity",
+    "entityRelatedSystem": "exampleSystem"
 }
