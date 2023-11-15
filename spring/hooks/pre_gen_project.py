@@ -45,7 +45,7 @@ def generate_project():
 
         print("Project generated successfully.")
     else:
-        print("Failed to generate the project.")
+        raise Exception("Failed to generate the project.")
 
 
 if __name__ == "__main__":
