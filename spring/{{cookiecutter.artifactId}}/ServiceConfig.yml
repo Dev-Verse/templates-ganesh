@@ -1,10 +1,10 @@
-type: { { cookiecutter.entityType } }
+type: {{cookiecutter.entityType}}
 
-title: { { cookiecutter.entityTitle } }
+title: {{cookiecutter.entityTitle}}
 
-description: { { cookiecutter.entityDescription } }
+description: {{cookiecutter.entityDescription}}
 
-relatedSystem: { { cookiecutter.entityRelatedSystem } }
+relatedSystem: {{cookiecutter.entityRelatedSystem}}
 
 jenkins:
   job: <JENKINS_SERVICE_NAME>
