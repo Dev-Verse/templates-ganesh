@@ -1,6 +1,9 @@
 type:
   {{cookiecutter.entityType}}
 
+subType:
+  WEB_APP
+
 title:
   {{cookiecutter.entityTitle}}
 
