@@ -1,6 +1,9 @@
 type:
   {{cookiecutter.entityType}}
 
+subType:
+  BACKEND_SERVICE
+  
 title:
   {{cookiecutter.entityTitle}}
 
